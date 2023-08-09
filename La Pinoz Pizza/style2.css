@@ -1,0 +1,425 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header img{
+    height: 85%;
+    width: 11%;
+    float: left;
+    margin-left: 75px;
+    margin-top: 8px;
+}
+.links{
+    height: 100%;
+    width: 85%;
+    margin-left: 450px;
+}
+.links a{
+    height: 100%;
+    width: 0%;
+    line-height: 75px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: green;
+}
+.order img{
+    height: 500px;
+    width: 1450px;
+    border: 1px solid black;
+    position: absolute;
+    opacity: 1;
+}
+.order p{
+    position: absolute; 
+    color: white;
+    font-size: 65px;
+    padding: 70px;
+    padding-left: 400px;
+    padding-bottom: 100px;
+}
+.order p2{
+    position: absolute;
+    color: yellow;
+    font-size: 65px;
+    padding: 70px;
+    padding-left: 400px;
+    padding-bottom: 100px;
+    margin-left: 75px;
+}
+.order p3{
+    position: absolute;
+    color: white;
+    padding: 70px;
+    padding-left: 400px;
+    padding-bottom: 100px;
+    margin-left: 30px;
+    font-size: 45px;
+}
+.order button{
+    height: 60px;
+    width: 190px;
+    border-radius: 20%;
+    font-size: 25px;
+    position: relative;
+    background-color: black;
+    color: white;
+    margin-top: 150px;
+    margin-left: 620px;
+}
+.order button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.deals{
+    height: 50px;
+    margin-top: 200px;
+}
+.deals p{
+    font-size: 30px;
+    margin-left: 50px;
+}
+.offers{
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+.offers img{
+    height: 100%;
+    width: 32%;
+    padding: 10px;
+    margin-left: 25px;
+}
+.aboutus b p{
+    font-size: 25px;
+    padding-top: 50px;
+    margin-left: 50px;
+}
+.about{
+    height: 475px;
+    margin-top: 30px;
+    display: flex;
+}
+.child{
+    height: 100%;
+    width: 50%;
+    font-size: 25px;
+    color: black;
+    margin-left: 50px;
+}
+.child p{
+    padding-left: 5px;
+    
+}
+.child2{
+    height: 100%;
+    width: 50%;
+}
+.child2 img{
+    margin-left: 140px;
+    border-radius: 80%;
+}
+.revolution {
+    padding-left: 75px;
+    margin-left: 75px;
+    height: 250px;
+    width: 1200px;
+    border: 1px solid black;
+    background-image: url(image-893235-1681821901.jpeg);
+    border-radius: 3%;
+}
+.journey{
+    display: flex;
+    height: 500px;
+    
+    margin-top: 30px;
+}
+.child3{
+    height: inherit;
+    width: 50%;
+    
+}
+.child4{
+    height: inherit;
+    width: 50%;
+    
+    background-image: url(lapinonz-pizza-round-image.png);
+}
+.child3 p{
+    padding-left: 75px;
+    font-size: 30px;
+    padding-bottom: 50px;
+    color: green;
+}
+.child3 p2{
+    font-size: 25px;
+    padding-top: 100px;
+    word-spacing: 15px;
+}
+.countries{
+    height: 300px;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 30px;
+}
+.cou1{
+    height: 100px;
+}
+.countries .cou1 p2{
+          height: 100px;
+          color: green;
+}
+.countries img{
+    height: 100px;
+    width: 20%;   
+}
+.cou2{
+    height: 200px;
+    display: flex;
+}
+.cou2 img{
+    height: inherit;
+    width: 20%;
+    padding-left: 55px;
+}
+.quality{
+    margin-top: 50px;
+    height: 200px;
+
+    display: flex;
+}
+.child5{
+    height: 100%;
+    width: 25%;
+
+    background-repeat: no-repeat;
+}
+.child5 img{
+    width: 100%;
+    height: 100%;
+}
+.child6{
+    height: 100%;
+    width: 25%;
+
+    background-repeat: no-repeat;
+}
+.child6 img{
+    width: 100%;
+    height: 100%;
+}
+.child7{
+    height: 100%;
+    width: 25%;
+
+    background-repeat: no-repeat;
+}
+.child7 img{
+    width: 100%;
+    height: 100%;
+}
+.child8{
+    height: 100%;
+    width: 25%;
+
+    background-repeat: no-repeat;
+}
+.child8 img{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    position: relative;
+    height: 150px;
+    width: 1200px;
+    margin-left: 80px;
+    margin-bottom: 150px;
+    display: flex;
+    margin-top: 65px;
+}
+.daughter{
+    height: 100%;
+    width: 33.33%;
+}
+.daughter2{
+    height: 100%;
+    width: 33.33%;
+}
+.daughter3{
+    height: 100%;
+    width: 33.33%;
+}
+.ing{
+    height: 50px;
+    width: 70px;
+    margin-left: 175px;
+    margin-top: 20px;
+    background-image: url(ingrediants.svg);
+    background-repeat: no-repeat;
+}
+.p2{
+    margin-top: 25px;
+    margin-left: 105px;
+}
+.p2 b p{
+    font-size: 25px;
+}
+.p{
+    margin-left: 25px;
+    font-size: 18px;
+    text-align: center;
+}
+.fresh{
+    height: 50px;
+    width: 70px;
+    margin-left: 175px;
+    margin-top: 20px;
+    background-image: url(fresh-dough.svg);
+    background-repeat: no-repeat;
+}
+.p3{
+    margin-top: 25px;
+    margin-left: 125px;
+}
+.p3 b p{
+    font-size: 25px;
+}
+.p4{
+    margin-left: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+.safe{
+    height: 50px;
+    width: 70px;
+    margin-left: 175px;
+    margin-top: 20px;
+    background-image: url(safety-and-quality.svg);
+    background-repeat: no-repeat;
+}
+.p5{
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.p5 b p{
+    font-size: 25px;
+}
+.p6{
+    margin-left: 15px;
+    font-size: 18px;
+    text-align: center;
+}
+.best{
+    height: 500px;
+
+    display: flex;
+    background-color: lightslategrey;
+}
+.abc{
+    height: 350px;
+    width: 18%;
+    border: 1px solid black;
+    margin-left: 75px;
+    margin-top: 75px;
+}
+.abc2{
+    height: 350px;
+    width: 18%;
+ border: 1px solid black;
+    margin-left: 75px;
+    margin-top: 75px;  
+}
+.abc3{
+    height: 350px;
+    width: 18%;
+border: 1px solid black;
+    margin-left: 75px;
+    margin-top: 75px; 
+}
+.abc4{
+    height: 350px;
+    width: 18%;
+border: 1px solid black;
+    margin-left: 75px;
+    margin-top: 75px; 
+}
+.aaa{
+    height: 70%;
+    width: 100%;
+
+}
+.aaa img{
+    height: 100%;
+    width: 100%;
+}
+.bbb{
+    height: 70%;
+    width: 100%;
+    
+}
+.bbb img{
+    height: 100%;
+    width: 100%;
+}
+.ccc{
+    height: 70%;
+    width: 100%;
+
+}
+.ccc img{
+    height: 100%;
+    width: 100%;
+}
+.ddd{
+    height: 70%;
+    width: 100%;
+
+}
+.ddd img{
+    height: 100%;
+    width: 100%;
+}
+.a{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    color: whitesmoke;
+}
+.d{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    color: whitesmoke;
+}
+.b{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    color: whitesmoke;
+}
+.c{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    color: whitesmoke;
+}
+.a:hover{
+    cursor: pointer;
+}
+.b:hover{
+    cursor: pointer;
+}
+.c:hover{
+    cursor: pointer;
+}
+.d:hover{
+    cursor: pointer;
+}
+.last{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+b p{
+    font-size: 35px;
+}

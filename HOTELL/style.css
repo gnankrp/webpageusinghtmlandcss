@@ -1,0 +1,496 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.menu{
+    height: 700px;
+    /*border: 1px solid red;*/
+    background-image: url(/Images/about_1.jpg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box{
+    height: 100px;
+    /*border: 1px solid rebeccapurple;*/
+    display: flex;
+}
+.logo{
+    height: inherit;
+    width: 100px;
+   /* border: 1px solid blue;*/
+    line-height: 100px;
+    margin-left: 100px;
+}
+.logo a{
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+}
+.links{
+    height: inherit;
+    width: 400px;
+   /* border: 1px solid green;*/
+    line-height: 100px;
+    margin-left: 300px;
+}
+.links a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: gray;
+}
+.links a:hover{
+    color: white;
+}
+.contact{
+    height: inherit;
+    width: 150px;
+   /* border: 1px solid yellow;*/
+    margin-left: 100px;
+}
+.contact b{
+    line-height: 100px;
+    color: white;
+}
+.p p{
+    font-size: 90px;
+    padding-top: 200px;
+    text-align: center;
+    color: white;
+}
+.services{
+    height: 380px;
+    background-color: rgb(241, 239, 239);
+    display: flex;
+}
+.serv p{
+    font-size: 35px;
+    color: rgba(8, 163, 148, 0.945);
+    padding-top: 100px;
+    padding-left: 90px;
+}
+.ser{
+    height: 350px;
+    width: 29%;
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}
+.ser2{
+    height: 350px;
+    width: 29%;
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}
+.ser3{
+    height: 350px;
+    width: 29%;
+    margin-top: 50px;
+    margin-left: 50px;
+    justify-content: space-evenly;
+}
+.ss{
+    height: 40%;
+    width: 100%;
+}
+.ss2{
+    height: 60%;
+    width: 100%;
+}
+.t p{
+    font-size: 23px;
+    padding-left: 25px;
+}
+.pa p{
+    padding-left: 25px;
+    padding-top: 10px;
+    color: grey;
+}
+.ss3{
+    height: 40%;
+    width: 100%;
+}
+.ss4{
+    height: 60%;
+    width: 100%;
+}
+.t2 p{
+    font-size: 23px;
+    padding-left: 25px;
+}
+.pa2 p{
+    padding-left: 25px;
+    padding-top: 10px;
+    color: grey;
+}
+.ss5{
+    height: 40%;
+    width: 40%;
+}
+.ss6{
+    height: 60%;
+    width: 100%;
+}
+.t3 p{
+    font-size: 23px;
+    padding-left: 25px;
+}
+.pa3 p{
+    padding-left: 25px;
+    padding-top: 10px;
+    color: grey;
+}
+.ss img{
+    height: 100%;
+    color: black;
+    font-size: 5px;
+}
+.ss3 img{
+    height: 100%;
+    color: black;
+    font-size: 5px;
+}
+.ss5 img{
+    height: 100%;
+    color: black;
+    font-size: 5px;
+}
+.about{
+    margin-top: 100px;
+    height: 656px;
+    display: flex;
+}
+.abo{
+    width: 50%;
+    height: 100%;
+}
+.abo2{
+    height: 100%;
+    width: 50%;
+}
+.ab{
+    margin-top: 70px;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    background-color: rgba(8, 163, 148, 0.945);
+}
+.ab2{
+    height: inherit;
+    width: 50%;
+}
+.ab3{
+    height: inherit;
+    width: 50%;
+}
+.img{
+    margin-top: 100px;
+    height: 300px;
+    width: 450px;
+    flex-direction: row;
+    background-image: url(/Images/about_1.jpg.webp);
+    background-size: cover;
+}
+.abo2 p{
+    font-size: 35px;
+    margin-top: 250px;
+    margin-left: 200px;
+    color: rgba(8, 134, 122, 0.945);
+}
+.abo2 p2{
+    word-spacing: 10px;
+    text-align: justify;
+    margin-left: 200px;
+}
+.ss6 button{
+    margin-top: 60px;
+    margin-left: 25px;
+    border: none;
+    color: rgba(8, 134, 122, 0.945);
+}
+.ss6 button:hover{
+    color: black;
+    cursor: pointer;
+}
+.ss4 button{
+    margin-top: 60px;
+    margin-left: 25px;
+    border: none;
+    color: rgba(8, 134, 122, 0.945);
+}
+.ss4 button:hover{
+    color: black;
+    cursor: pointer;
+}
+.ss2 button{
+    margin-top: 60px;
+    margin-left: 25px;
+    border: none;
+    color: rgba(8, 134, 122, 0.945);
+}
+.ss2 button:hover{
+    color: black;
+    cursor: pointer;
+}
+.blog{
+    height: 500px;
+    display: flex;
+}
+.posts{
+    height: 400px;
+    width: 28%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.pos{
+    height: 60%;
+}
+.pos2{
+    height: 40%;
+}
+.pos img{
+    height: 100%;
+    width: 100%;
+}
+.pos2 b p{
+    word-spacing: 5px;
+    font-size: 23px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.pos2 button{
+    border: none;
+    color: rgba(8, 134, 122, 0.945);
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 17px;
+}
+.posts2{
+    height: 400px;
+    width: 28%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.pos3{
+    height: 60%;
+}
+.pos4{
+    height: 40%;
+}
+.pos3 img{
+    height: 100%;
+    width: 100%;
+}
+.pos4 b p{
+    word-spacing: 5px;
+    font-size: 23px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.pos4 button{
+    border: none;
+    color: rgba(8, 134, 122, 0.945);
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 17px;
+}
+.posts3{
+    height: 400px;
+    width: 28%;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.pos5{
+    height: 60%;
+}
+.pos6{
+    height: 40%;
+}
+.pos5 img{
+    height: 100%;
+    width: 100%;
+}
+.pos6 b p{
+    word-spacing: 5px;
+    font-size: 23px;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.pos6 button{
+    border: none;
+    color: rgba(8, 134, 122, 0.945);
+    font-size: 15px;
+    margin-top: 15px;
+    margin-left: 17px;
+}
+.pos6 button:hover{
+    color: black;
+    cursor: pointer;
+}
+.pos4 button:hover{
+    color: black;
+    cursor: pointer;
+}
+.pos2 button:hover{
+    color: black;
+    cursor: pointer;
+}
+.heading b p{
+    font-size: 30px;
+    margin-left: 50px;
+    color: rgba(8, 134, 122, 0.945);
+}
+.questions{
+    height: 600px;
+    background-color: rgba(8, 134, 122, 0.945);
+    display: flex;
+}
+.fr{
+    height: 100%;
+    width: 35%;
+}
+.fr p{
+    font-size: 30px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.fr2{
+    height: 100%;
+    width: 75
+}
+.fr2 .pp{
+    margin-top: 300px;
+}
+.pp p{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+.pp p i{
+    margin-left: 700px;
+}
+.pp p:hover{
+    cursor: pointer;
+}
+.testimonials{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(230, 225, 225);
+}
+.testimonials p{
+    font-size: 35px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.boxes{
+    height: 400px;
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 70px;
+    border: 1px solid rgb(238, 235, 235);   
+}
+.boxes1{
+    height: 400px;
+    width: 30%;
+    margin-left: 50px;
+    margin-top: 70px;
+    border: 1px solid rgb(238, 235, 235);
+}
+.ppp{
+    margin-top: 0px;
+    height: 100px;
+    background-color: rgb(230, 225, 225);
+}
+.ppp p{
+    font-size: 35px;
+    margin-left: 50px;
+    background-color: rgb(230, 225, 225);
+    color: rgba(8, 134, 122, 0.945);
+}
+.boxes1 p{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.boxes p{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.boxes1 b{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.boxes b{
+    font-size: 25px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.footer{
+    height: 600px;
+    margin-top: 100px;
+    display: flex;
+    background-color: rgb(245, 245, 245);
+}
+.childs{
+    height: 100%;
+    width: 18%;
+    margin-left: 75px;
+}
+.childsa{
+    height: 100%;
+    width: 18%;
+    margin-left: 75px;
+}
+.childsb{
+    height: 100%;
+    width: 18%;
+    margin-left: 75px;
+}
+.childsc{
+    height: 100%;
+    width: 18%;
+    margin-left: 75px;
+}
+.childs b p{
+    font-size: 25px;
+    margin-left: 75px;
+    margin-top: 120px;
+}
+.lists p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+.childsa b p{
+    font-size: 25px;
+    margin-left: 75px;
+    margin-top: 120px;
+}
+.listsa p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+.childsb b p{
+    font-size: 25px;
+    margin-left: 75px;
+    margin-top: 120px;
+}
+.listsb p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 75px;
+}
+.childsc b p{
+    font-size: 25px;
+    margin-left: 55px;
+    margin-top: 120px;
+}
+.listsc p{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
